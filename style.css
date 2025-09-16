@@ -1,0 +1,79 @@
+/* General Body Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Main Content Container */
+.container {
+    max-width: 800px; /* Limits the width for better readability */
+    margin: 40px auto; /* Centers the container with space on top/bottom */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+}
+
+/* Header and Headshot Styles */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.headshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image a perfect circle */
+    object-fit: cover; /* Prevents the image from being stretched */
+    border: 4px solid #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.english-name {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 2.5em; /* Large font size for your name */
+    color: #2c3e50;
+}
+
+.chinese-name {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #7f8c8d;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 30px; /* Adds space between sections */
+    border-top: 1px solid #eeeeee;
+    padding-top: 30px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db; /* Blue accent line under headings */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* List and Link Styles */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2980b9;
+}
